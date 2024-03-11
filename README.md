@@ -9,13 +9,14 @@ My idea for this project stems from a mock stock portfolio that i had created in
 
 ### Method
 
-In python we obtain stock data from yahoo finance via yfinance and compute the annualized perfomance of the 6 stock portfolio (mean returns, standard dev, covariance matrix). We then apply Harry Markowitz Modern portfolio theory/ Mean-Variance Model using randomly generated weights to make n different attainable portfolios.
+In Python, we retrieve stock data from Yahoo Finance using the yfinance library and compute the annualized performance of a 6-stock portfolio (including mean returns, standard deviation, and covariance matrix). Subsequently, we apply Harry Markowitz's Modern Portfolio Theory/ Mean-Variance Model by generating random weights to create n different feasible portfolios.
 
 ie. For two securities:
 ![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/7009c76a-4041-4ef1-8a89-5dc4729b55c2)
 ![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/b1b26989-f392-4d90-a443-dbe5b776a058)
 
-The x-axis of the generated plots indicates the volatility (Portfolio's standard deviation) and the y-axis is the expected return. From the plots we would be able to see something called the Efficient Frontier, which is a set of optimal portfolios that offer the highest expected return for a given level of risk (or lowest risk given a level of expected return). We see this frontier in our plots where we see a pattern of densely packed dots representing various portfolios. These portfolios form an arched line, illustrating the optimal trade-off between expected return and risk. To pick the optimal portfolio we compute Sharpes Ratio which quantifies and indicates how much excess return a portfolio generates for each unit it takes. (higher sharpe ratio = better).
+The x-axis of the generated plots indicates the volatility (Portfolio's standard deviation), while the y-axis represents the expected return. Within the plots, we observe the Efficient Frontier, which constitutes a set of optimal portfolios offering the highest expected return for a given level of risk (or the lowest risk for a specified level of expected return). This frontier is discernible in our plots, where densely packed dots signify various portfolios. These portfolios delineate an arched line, elucidating the optimal trade-off between expected return and risk. To select the optimal portfolio, we compute the Sharpe Ratio, which quantifies and indicates the excess return a portfolio generates per unit of risk it assumes (higher Sharpe ratio = better).
+
 
 ![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/2e39b215-a86e-42e5-94d3-a1437a8c0f85)
 
