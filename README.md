@@ -9,7 +9,7 @@ My idea for this project stems from a mock stock portfolio that i had created in
 
 ### Method
 
-In python we obtain stock data from yahoo finance via yfinance and compute the annualized perfomance of the 6 stock portfolio (mean returns, standard dev, covariance matrix). We then generate different portfolios by randomly creating different weights and multiplying them to obtain a plot of attainable portfolios. 
+In python we obtain stock data from yahoo finance via yfinance and compute the annualized perfomance of the 6 stock portfolio (mean returns, standard dev, covariance matrix). We then apply Harry Markowitz Modern portfolio theory/ Mean-Variance Model using randomly generated weights to make n different attainable portfolios.
 
 ie. For two securities:
 ![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/7009c76a-4041-4ef1-8a89-5dc4729b55c2)
