@@ -19,11 +19,12 @@ From the plot, the cluster of orange dots forms an arch or curve known as the ef
 ![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/4033d379-2922-428f-85f3-536cefe5163a)
 
 The results from the original portfolio show:
-Max Sharpe Ratio Portfolio Allocation                             Minimum Volatility Portfolio Allocation
-Annualised Return: 0.56                                           Annualised Return: 0.26
-Annualised Volatility: 0.43                                       Annualised Volatility: 0.23 
-             BAC  GOOG  AAPL   NVDA   AMD   TSLA                              BAC   GOOG   AAPL  NVDA   AMD  TSLA
-allocation  5.89  0.39  8.61  70.32  1.06   13.74                allocation  30.22  32.28  32.61  1.05  1.36  2.48
+{Max Sharpe Ratio Portfolio Allocation
+
+Annualised Return: 0.56
+Annualised Volatility: 0.43
+             BAC  GOOG  AAPL   NVDA   AMD   TSLA
+allocation  5.89  0.39  8.61  70.32  1.06  13.74}
 
 As we observed from the outcomes above, the Max Sharpe Ratio Portfolio allocating  70.32% of our stock in Nvidia, with the whole portfolio yielding annualized volatility of 0.43. On the other hand, the Min Volatility Portfolio suggests a lower annualized return but with reduced volatility. Although we have optimally rebalanced within the portfolio slightly, this still does not fix our over-reliance Nvidia stock.
 
