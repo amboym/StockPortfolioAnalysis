@@ -16,5 +16,6 @@ We generated random portfolios and random weights to create a plot of attainable
 
 From the plot, the cluster of orange dots forms an arch or curve known as the efficient frontier. It earns this name because among the attainable portfolios, it represents the same level of risk with the highest target return.
 
-![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/a876e52b-a713-4e78-9233-dbd08c6ea432)
 ![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/4033d379-2922-428f-85f3-536cefe5163a)
+
+The results from the original portfolio show
