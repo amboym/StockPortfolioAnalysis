@@ -35,10 +35,10 @@ Using different combination of stocks and now adding ETFs into the mix, we now o
 
 ![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/02d06579-e1a0-44f2-9246-99924c01d291)
 
-The attainable portfolios in this diversified portfolio provide a better balance of stocks, achieving the Max Sharpe Ratio Portfolio with a lower 34% annualized return but also exhibiting lower volatility. The difference in volatility between the two attainable portfolios is evident when comparing the two graphs. In the undiversified portfolio, the points tend to deviate from the efficient frontier, whereas in the diversified portfolio, the attainable portfolios tend to hover around the efficient frontier.
 
 ![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/c4213c41-e0c3-4832-99b0-ad722dbb2a39)
 
 ![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/cf1e4caa-b05b-46ea-8956-3b06d15d1ced)
 
 
+The attainable portfolios in this diversified portfolio provide a better balance of stocks, achieving the Max Sharpe Ratio Portfolio with a lower 34% annualized return but also exhibiting lower volatility. The difference in volatility between the two attainable portfolios is evident when comparing the two graphs. In the undiversified portfolio, the points tend to deviate from the efficient frontier, whereas in the diversified portfolio, the attainable portfolios tend to hover around the efficient frontier.
