@@ -11,7 +11,7 @@ My idea for this project stems from a mock stock portfolio that i had created in
 
 ![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/ee4ebf4d-43c1-47b8-a565-11696c1eac28)
 
-## Method and Results
+### Method and Results
 
 We generated random portfolios and random weights to create a plot of attainable portfolios for n = 100,000. In Python, we compute the portfolio's standard deviation (volatility or risk) on the x-axis and expected return on the y-axis. We find the optimal solution by selecting the portfolio with the maximum Sharpe ratio or one with the minimum volatility.
 
