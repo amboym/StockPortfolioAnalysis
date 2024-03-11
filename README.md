@@ -12,13 +12,12 @@ My idea for this project stems from a mock stock portfolio that i had created in
 In Python, we retrieve stock data from Yahoo Finance using the yfinance library and compute the annualized performance of a 6-stock portfolio (including mean returns, standard deviation, and covariance matrix). Subsequently, we apply Harry Markowitz's Modern Portfolio Theory/ Mean-Variance Model by generating random weights to create n different feasible portfolios.
 
 ie. For two securities:
-![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/7009c76a-4041-4ef1-8a89-5dc4729b55c2)
-![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/b1b26989-f392-4d90-a443-dbe5b776a058)
+![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/17dfbf1e-4781-4e26-94c9-48849e8e395f)
 
 The x-axis of the generated plots indicates the volatility (Portfolio's standard deviation), while the y-axis represents the expected return. Within the plots, we observe the Efficient Frontier, which constitutes a set of optimal portfolios offering the highest expected return for a given level of risk (or the lowest risk for a specified level of expected return). This frontier is discernible in our plots, where densely packed dots signify various portfolios. These portfolios delineate an arched line, elucidating the optimal trade-off between expected return and risk. To select the optimal portfolio, we compute the Sharpe Ratio, which quantifies and indicates the excess return a portfolio generates per unit of risk it assumes (higher Sharpe ratio = better).
 
 
-![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/2e39b215-a86e-42e5-94d3-a1437a8c0f85)
+![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/80892d02-3475-4a91-b714-6aecd9853da1)
 
 ### Results
 
