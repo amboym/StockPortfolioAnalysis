@@ -14,7 +14,7 @@ In Python, we retrieve stock data from Yahoo Finance using the yfinance library 
 ie. For two securities:
 ![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/17dfbf1e-4781-4e26-94c9-48849e8e395f)
 
-The x-axis of the generated plots indicates the volatility (Portfolio's standard deviation), while the y-axis represents the expected return. Within the plots, we observe the Efficient Frontier, which constitutes a set of optimal portfolios offering the highest expected return for a given level of risk (or the lowest risk for a specified level of expected return). This frontier is discernible in our plots, where densely packed dots signify various portfolios. These portfolios delineate an arched line, elucidating the optimal trade-off between expected return and risk. To select the optimal portfolio, we compute the Sharpe Ratio, which quantifies and indicates the excess return a portfolio generates per unit of risk it assumes (higher Sharpe ratio = better).
+The x-axis of the generated plots indicates the volatility (Portfolio's standard deviation), while the y-axis represents the expected return. Within the plots, we observe the Efficient Frontier, which is a set of optimal portfolios offering the highest expected return for a given level of risk (or the lowest risk for a specified level of expected return). This frontier is discernible in our plots, where densely packed dots signify various portfolios. These portfolios form an arched line, showing the optimal trade-off between expected return and risk. To select the optimal portfolio, we compute the Sharpe Ratio, which quantifies and indicates the excess return a portfolio generates per unit of risk it assumes (higher Sharpe ratio = better).
 
 
 ![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/80892d02-3475-4a91-b714-6aecd9853da1)
@@ -29,7 +29,7 @@ The results from the original portfolio show:
 ![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/1994804f-6b99-4a24-be85-8868d7eb0d38)
 
 
-As we observed from the outcomes above, the Max Sharpe Ratio Portfolio allocating  70.32% of our stock in Nvidia, with the whole portfolio yielding annualized volatility of 0.43. On the other hand, the Min Volatility Portfolio suggests a lower annualized return but with reduced volatility. Although we have optimally rebalanced within the portfolio slightly, this still does not fix our over-reliance Nvidia stock.
+As we observed from the outcomes above, the Max Sharpe Ratio Portfolio allocating  70.32% of our stock in Nvidia, with the whole portfolio yielding annualized volatility of 0.43. On the other hand, the Min Volatility Portfolio suggests a lower annualized return but with reduced volatility. Although we have optimally rebalanced within the portfolio slightly, this still does not fix our over-reliance in Nvidia stock.
 
 ## Diversified Portfolio 
 
