@@ -15,13 +15,12 @@ My idea for this project stems from a mock stock portfolio that i had created in
 We generated random portfolios and random weights to create a plot of attainable portfolios for n = 100,000. In Python, we compute the portfolio's standard deviation (volatility or risk) on the x-axis and expected return on the y-axis. We find the optimal solution by selecting the portfolio with the maximum Sharpe ratio or one with the minimum volatility.
 
 From the plot, the cluster of orange dots forms an arch or curve known as the efficient frontier. It earns this name because among the attainable portfolios, it represents the same level of risk with the highest target return.
-![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/861aed67-2a1d-471c-9943-859fe5391b56)
-![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/a15fa0c6-b6d5-43ac-8a18-3bc2637230c2)
 
 ![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/4033d379-2922-428f-85f3-536cefe5163a)
 
 The results from the original portfolio show:
-
+![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/a46b9c1b-ce7f-4a13-83be-6541ead0fda1)
+![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/2fc0f5b8-db13-43c6-922f-57281f7022d9)
 
 As we observed from the outcomes above, the Max Sharpe Ratio Portfolio allocating  70.32% of our stock in Nvidia, with the whole portfolio yielding annualized volatility of 0.43. On the other hand, the Min Volatility Portfolio suggests a lower annualized return but with reduced volatility. Although we have optimally rebalanced within the portfolio slightly, this still does not fix our over-reliance Nvidia stock.
 
