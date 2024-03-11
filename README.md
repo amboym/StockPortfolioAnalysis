@@ -22,6 +22,8 @@ From the plot, the cluster of orange dots forms an arch or curve known as the ef
 The results from the original portfolio show:
 ![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/1994804f-6b99-4a24-be85-8868d7eb0d38)
 
+
+
 As we observed from the outcomes above, the Max Sharpe Ratio Portfolio allocating  70.32% of our stock in Nvidia, with the whole portfolio yielding annualized volatility of 0.43. On the other hand, the Min Volatility Portfolio suggests a lower annualized return but with reduced volatility. Although we have optimally rebalanced within the portfolio slightly, this still does not fix our over-reliance Nvidia stock.
 
 Opting for the minimum volatility portfolio offers less risk. But i think that we are still heavily reliant on tech stocks and the US markets.
