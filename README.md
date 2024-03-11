@@ -1,4 +1,4 @@
-# StockPortfolioAnalysis
+# Portfolio Management
 
 ## Introduction
 DISCLAIMER: I am not an expert on financial topics, this is just a side-project for me to apply topics i have learned in class.
