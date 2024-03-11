@@ -13,7 +13,14 @@ My idea for this project stems from a mock stock portfolio that i had created in
 
 ### Method
 
-In python we obtain stock data from yahoo finance via yfinance annualized perfomance of the 6 stock portfolio (mean returns, standard dev, covariance matrix).Then  compute generate n = 100000 different portfolios and different weights that allows us to produce different attainable portfolios 
+In python we obtain stock data from yahoo finance via yfinance and compute the annualized perfomance of the 6 stock portfolio (mean returns, standard dev, covariance matrix). We then generate different portfolios by randomly creating different weights and multiplying them to obtain a plot of attainable portfolios. 
+
+ie. For two securities:
+![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/7009c76a-4041-4ef1-8a89-5dc4729b55c2)
+![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/b1b26989-f392-4d90-a443-dbe5b776a058)
+
+The x-axis of the generated plots indicates the volatility (Portfolio's standard deviation) and the y-axis is the expected return. From the plots we would be able to see something called the Efficient Frontier, which is a set of optimal portfolios that offer the highest expected return for a given level of risk (or lowest risk given a level of expected return). We see this frontier in our plots where we see a pattern of densely packed dots representing various portfolios. These portfolios form an arched line, illustrating the optimal trade-off between expected return and risk. To pick the optimal portfolio we compute Sharpes Ratio which quantifies and indicates how much excess return a portfolio generates for each unit it takes. (higher sharpe ratio = better).
+
 ### Results
 
 ![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/4033d379-2922-428f-85f3-536cefe5163a)
