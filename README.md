@@ -12,8 +12,9 @@ My idea for this project stems from a mock stock portfolio that i had created in
 ![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/ee4ebf4d-43c1-47b8-a565-11696c1eac28)
 
 ## Method and Results
+We generated random portfolios and random weights to create a plot of attainable portfolios for n = 100,000. In Python, we compute the portfolio's standard deviation (volatility or risk) on the x-axis and expected return on the y-axis. We find the optimal solution by selecting the portfolio with the maximum Sharpe ratio or one with the minimum volatility.
 
-We genereated random portfolios and random weights to get a plot of attainable portfolios for n = 100000, in python we compute the portfolios standard deviation (volatility (risk)) in the x-axis and expected return in the y-axis. We find the optimal solution by grabbing the portfolio with the max sharpe ratio or one with the minimum volatility. 
+From the plot, the cluster of orange dots forms an arch or curve known as the efficient frontier. It earns this name because among the attainable portfolios, it represents the same level of risk with the highest target return.
 
 ![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/a876e52b-a713-4e78-9233-dbd08c6ea432)
 ![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/4033d379-2922-428f-85f3-536cefe5163a)
