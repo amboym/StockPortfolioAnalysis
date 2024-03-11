@@ -3,7 +3,9 @@
 ## Introduction
 DISCLAIMER: I am not an expert on financial topics, this is just a side-project for me to apply topics i have learned in class.
 
-My idea for this project stems from a mock stock portfolio that i had created in 2017 and recently re-discovered. The Yahoo finance portfolio i have consists of 6 stock Bank of America (BAC), Alphabet/Google (GOOG), Apple (AAPL), Nvidia (NVIDIA), AMD (AMD) and Tesla (AMD). What this project aims to do is to apply Harry Markowitz's Modern Portfolio Theory to find optimal allocations of stock for an undiversified portfolio and to  compare it to a more diversified one. The pie charts below breaks down the the holdings from my yahoo finance portfolio, as we can see the majority of my holdings are in the semi-conductor sector, we attempt to find an optimal way of shifting stocks around so that we are less exposed to stock-price fluctuations in the semi-conductor industry.
+My idea for this project stems from a mock stock portfolio that i had created in 2017 and recently re-discovered. The Yahoo finance portfolio i have consists of 6 stock Bank of America (BAC), Alphabet/Google (GOOG), Apple (AAPL), Nvidia (NVIDIA), AMD (AMD) and Tesla (AMD). 
+
+The pie charts below breaks down the the holdings from my yahoo finance portfolio. As we can see the majority of my holdings are in the semi-conductor sector, since we the portfolio is not well diversified and the portfolio relies heavily on Nvidia stock we are more exposed to price fluctuations. In this project we hope to try and mitigate risk by finding an optimal portfolio allocation by applying Harry Markowitz Modern Portfolio Theory , and to see how we can improve our portfolio by diversifying our holdings.
 
 ![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/ee4ebf4d-43c1-47b8-a565-11696c1eac28)
 
