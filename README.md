@@ -12,4 +12,6 @@ My idea for this project stems from a mock stock portfolio that i had created in
 ![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/ee4ebf4d-43c1-47b8-a565-11696c1eac28)
 
 ## Method
-![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/9b4209fb-fffa-41c0-b658-4b4a85c21567)
+w_i = \frac{x_i \cdot S_i(0)}{V(0)}
+
+Each portfo
