@@ -25,11 +25,20 @@ The results from the original portfolio show:
 ![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/1994804f-6b99-4a24-be85-8868d7eb0d38)
 
 
-
 As we observed from the outcomes above, the Max Sharpe Ratio Portfolio allocating  70.32% of our stock in Nvidia, with the whole portfolio yielding annualized volatility of 0.43. On the other hand, the Min Volatility Portfolio suggests a lower annualized return but with reduced volatility. Although we have optimally rebalanced within the portfolio slightly, this still does not fix our over-reliance Nvidia stock.
 
 Opting for the minimum volatility portfolio offers less risk. But i think that we are still heavily reliant on tech stocks and the US markets.
 
 ## Diversified Portfolio 
+
+Using different combination of stocks and now adding ETFs into the mix, we now obtain a more diversified portfolio. In this portfolio i allocated shares to TD Bank (TD.TO), Apple (AAPL), AON , and AMD. The two ETFs are Utilities Select Selector SPDR Fund (XLU) and Vanguard Total Stock Market Index Fund (VTI).
+
+![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/02d06579-e1a0-44f2-9246-99924c01d291)
+The results from the diversified portfolio show:
+
+
+![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/c4213c41-e0c3-4832-99b0-ad722dbb2a39)
+
+![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/cf1e4caa-b05b-46ea-8956-3b06d15d1ced)
 
 
