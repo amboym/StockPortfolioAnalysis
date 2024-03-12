@@ -7,7 +7,7 @@ My idea for this project stems from a mock stock portfolio that i had created in
 
 ![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/0cb5a65d-e6b5-4d44-a2fa-4c7ea0ab9ad4)
 
-The pie charts below breaks down the the holdings from my yahoo finance portfolio. As we can see the majority of my holdings are in the semi-conductor sector, since we the portfolio is not well diversified and the portfolio relies heavily on Nvidia stock we are more exposed to price fluctuations. In this project we hope to try and mitigate risk by finding an optimal portfolio allocation by applying Harry Markowitz Modern Portfolio Theory , and to see how we can improve our portfolio by diversifying our holdings.
+The pie charts below breaks down the the holdings from my yahoo finance portfolio. As we can see the majority of my holdings are in Nvidia stock, leaving us exposed to price fluctuations in the semi-conductor sector. In this project we hope to try and mitigate risk by finding an optimal portfolio allocation by applying Harry Markowitz Modern Portfolio Theory , and to see how we can improve our portfolio by diversifying our holdings.
 
 ![image](https://github.com/amboym/StockPortfolioAnalysis/assets/162647158/ee4ebf4d-43c1-47b8-a565-11696c1eac28)
 
